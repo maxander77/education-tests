@@ -13,6 +13,7 @@ function sortHeroesByHealth(heroes) {
 }
 
 
-export default getHealthStatus;
+export { getHealthStatus, sortHeroesByHealth };
+
 
 

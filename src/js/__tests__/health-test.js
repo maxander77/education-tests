@@ -1,5 +1,5 @@
-import getHealthStatus from "../health";
-import sortHeroesByHealth from "../health";
+import { getHealthStatus, sortHeroesByHealth } from '../health';
+
 
 test('should return "healthy" if health is more than 50', () => {
   const character = { name: 'Mage', health: 90 };
